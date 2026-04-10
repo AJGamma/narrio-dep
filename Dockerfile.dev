@@ -10,10 +10,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy dependency files
+# Copy dependency files and source code (needed for setup)
 COPY pyproject.toml ./
+COPY src ./src
 
-# Install Python dependencies
+# Install Python dependencies in editable mode for development
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -e .
 
