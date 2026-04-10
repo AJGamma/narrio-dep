@@ -23,7 +23,7 @@ FROM python:3.11-slim
 # Set working directory
 WORKDIR /app
 
-# Install runtime dependencies (if needed)
+# Install runtime dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
@@ -37,12 +37,17 @@ COPY --from=builder /app/src ./src
 COPY assets ./assets
 COPY content ./content
 
+# Create a non-root user
+RUN useradd -m -u 1000 narrio && \
+    chown -R narrio:narrio /app
+USER narrio
+
 # Expose port
 EXPOSE 8000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8000/health || exit 1
+    CMD curl -f http://localhost:8000/api/health || exit 1
 
 # Run the application (without --reload for production)
 CMD ["uvicorn", "src.narrio.api_router:app", "--host", "0.0.0.0", "--port", "8000"]
