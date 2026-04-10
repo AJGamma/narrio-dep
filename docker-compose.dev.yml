@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  narrio-backend-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: narrio-backend-dev
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      # Mount source code for hot reload
+      - ./src:/app/src
+      - ./assets:/app/assets
+      - ./content:/app/content
+    restart: unless-stopped

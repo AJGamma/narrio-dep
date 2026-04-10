@@ -1,0 +1,48 @@
+{
+  "design_style": "Soft-Focus Ethereal / Organic Minimalist / Fluid Gradient Art",
+  "color_palette": {
+    "primary_tones": [
+      "#A5C9FF",
+      "#D8B4FE",
+      "#FFD1E3"
+    ],
+    "accent_warmth": [
+      "#FF9D4D",
+      "#FFC872"
+    ],
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#3C3C3C",
+    "background_logic": "Dynamic mesh gradients with high Gaussian blur (60px+) and soft color bleeding"
+  },
+  "typography": {
+    "header_font_style": "Geometric Sans-Serif / Medium to Bold Weight",
+    "body_font_style": "Modern Humanist Sans-Serif / Regular Weight",
+    "layout_logic": "Centered Hero Typography / Bottom-Left anchored text",
+    "text_effects": [
+      "Negative letter-spacing (-2% to -3%) for headers",
+      "Soft anti-aliasing for maximum legibility on vibrant backgrounds",
+      "Optical kerning for wide-character display"
+    ]
+  },
+  "visual_elements": {
+    "geometry": [
+      "Borderless free-floating typography and icons",
+      "Unbounded spatial arrangement"
+    ],
+    "textures": [
+      "Subtle micro-grain / Photographic noise",
+      "Soft-focus bokeh (Depth of field)",
+      "Fluid, liquid-like transitions between color steps"
+    ],
+    "motifs": [
+      "Macro botanical/organic abstractions",
+      "Minimalist geometric icons (8-petal radial symmetry)"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Ultra-wide margins / Centered focus",
+    "depth": "Multi-layered Gaussian blur for ambient background depth",
+    "hierarchy": "Information presented via high-contrast white text directly against saturated mid-tone backgrounds",
+    "alignment": "Strict center-axis for hero messaging; flush-left for detailed metadata"
+  }
+}

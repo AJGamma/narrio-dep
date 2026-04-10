@@ -1,0 +1,52 @@
+{
+  "design_style": "Minimalist Corporate Organic-Sketch / Contemporary Editorial",
+  "color_palette": {
+    "background_canvas": "#FFFFFF",
+    "illustration_bg": "#D6E9F9",
+    "primary_accent": "#0081FF",
+    "neutral_ink": "#000000",
+    "text_primary": "#1A1A1A",
+    "text_secondary": "#737373",
+    "border_stroke": "#E5E5E5"
+  },
+  "typography": {
+    "header_font_style": "Semi-Bold Sans-Serif / High-X-Height Grotesque",
+    "body_font_style": "Regular Sans-Serif / Neutral System UI",
+    "layout_logic": "Vertical Stack / Left-Aligned Flush",
+    "text_effects": [
+      "Tight line-height for headlines (Leading: 1.1 - 1.2)",
+      "Standard tracking for readability",
+      "Hierarchical sizing: Headline is 250% of body text scale"
+    ]
+  },
+  "visual_elements": {
+    "illustration_style": [
+      "Hand-drawn monolinear ink strokes",
+      "Organic imperfect shapes with variable line weight",
+      "Flat color fills with slight offset or intentional whitespace",
+      "Abstracted metaphorical iconography"
+    ],
+    "geometry": [
+      "Rounded rectangular containers (Border-radius: 8px - 12px)",
+      "Soft-edge image masking",
+      "Asymmetric organic blobs within the illustration"
+    ],
+    "textures": [
+      "Subtle paper-grain overlay on illustration background",
+      "Simulated ink bleed on line art",
+      "Flat, matte surfaces without gradients or shadows"
+    ],
+    "motifs": [
+      "Circular orbit paths and dynamic swooshes",
+      "Simplified UI elements (checkmarks, mail icons, document sheets)",
+      "Minimalist line-art world map silhouettes",
+      "Circular avatar framing with high-contrast line art portrait"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Relaxed padding with consistent vertical gutters",
+    "depth": "Flat 2D planes; depth created solely through color layering, not shadows",
+    "hierarchy": "Visual-first entry point (Hero Image) followed by bold summary and detailed body",
+    "alignment": "Strict left-margin alignment for all text elements"
+  }
+}

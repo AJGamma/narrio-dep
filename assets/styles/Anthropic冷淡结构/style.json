@@ -1,0 +1,47 @@
+{
+  "design_style": "High-Precision Rationalist / Academic Formalism",
+  "color_palette": {
+    "background": "#F5F2ED",
+    "primary_accent": "#000000",
+    "secondary_accent": "#D1D3D4",
+    "text_primary": "#1A1A1A",
+    "text_secondary": "#3C3C3C",
+    "surface_tint": "#EBE8E2"
+  },
+  "typography": {
+    "header_font_style": "Geometric Sans-Serif / Medium to Bold weight",
+    "body_font_style": "High-Contrast Serif / Transitional Antiqua Style (Emphasis)",
+    "layout_logic": "Modular Grid / Systematic White Space",
+    "text_effects": [
+      "Significant use of a refined Serif for continuous text blocks",
+      "Selective thick underlining on Sans-Serif headings",
+      "Rational leading and tracking across all text styles"
+    ]
+  },
+  "visual_elements": {
+    "geometry": [
+      "Precise, clean geometric primitives (perfect triangles, circles, polygons)",
+      "Strict node-link network diagrams with clean connections",
+      "Rigid block-staircase constructs",
+      "Large-radius rounded rectangles as container cards"
+    ],
+    "textures": [
+      "Perfectly smooth vector gradients and fills",
+      "Fine, sharp-edged precise wireframes (orthographic projections)",
+      "Uniform, procedural dot patterns (grid-based)",
+      "Absence of manual stroke or grain effects"
+    ],
+    "motifs": [
+      "Architectural block models",
+      "Mathematical diagram elements",
+      "Astrometrical data maps",
+      "Formal structural symbols"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Extreme negative space to emphasize logical clarity and structural order",
+    "depth": "Flat 2D aesthetic using tonal layering for content cards",
+    "hierarchy": "Visual tension and order created by juxtaposing Bold Sans-Serif with Elegant Serif",
+    "alignment": "Strict adherence to flush-left grids for narrative, with centered, balanced graphic blocks"
+  }
+}

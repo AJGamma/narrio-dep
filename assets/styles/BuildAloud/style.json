@@ -1,0 +1,51 @@
+{
+"design_style": "Bento Box UI / Vibrant Neo-Pop / Modern Playful Modular",
+"color_palette": {
+"background": "#0B0E14",
+"primary_accent_pink": "#FF3B8A",
+"primary_accent_blue": "#3800FF",
+"secondary_accent_green": "#CAEE6C",
+"secondary_accent_yellow": "#F4B93B",
+"highlight_red": "#B32836",
+"text_primary_light": "#FFFFFF",
+"text_primary_dark": "#1A1A1A",
+"surface_translucent": "rgba(255, 255, 255, 0.2)"
+},
+"typography": {
+"header_font_style": "Bold Geometric Sans-Serif / Modern Hei-Ti (Chinese)",
+"body_font_style": "Regular Clean Sans-Serif / System Default UI Font",
+"layout_logic": "Modular Grid / Card-Contained Hierarchy",
+"text_effects": [
+"Mixed emphasis using bolding and italicization (e.g., 'Blog')",
+"High-contrast scale shifting between titles and subtitles",
+"Semi-transparent typography for secondary context",
+"Micro-typography within pill-shaped container tags"
+]
+},
+"visual_elements": {
+"geometry": [
+"Hyper-rounded rectangles (Squarcles)",
+"Perfect circles for avatars and minimal icons",
+"Pill-shaped tag containers",
+"Nested dimensional cards"
+],
+"textures": [
+"Flat matte color blocking",
+"Subtle translucent/glassmorphic overlapping layers",
+"Faint dashed and curved vector paths in backgrounds",
+"Localized blurred glow effects (middle card target)"
+],
+"motifs": [
+"Bento Box grid structure",
+"Minimalist, semi-transparent icon enclosures (top left of cards)",
+"Stacked UI layers creating false 3D depth",
+"Hashtag and link UI syntax for metadata"
+]
+},
+"compositional_rules": {
+"spacing": "Strict, uniform external grid gutters paired with generous internal breathing room",
+"depth": "2.5D stacking achieved via soft drop shadows, overlapping translucent cards, and high-contrast foreground/background separation",
+"hierarchy": "Visual weight dictated by container volume, bold solid colors, and massive typographic anchors",
+"alignment": "Rigid macro grid structure with variable internal alignment (flush-left for text blocks, absolute-centered for profile avatars)"
+}
+}

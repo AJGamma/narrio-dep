@@ -1,0 +1,67 @@
+# Narrio API Configuration
+# Copy this file to .narrio.yaml and fill in your API keys and endpoints
+
+# Text/Chat API (for chunkify and stylify stages)
+text_api:
+  provider: "hnd1-aihub"  # identifier for this provider
+  api_key: "sk-your-text-api-key"
+  base_url: "https://hnd1.aihub.zeabur.ai/v1/chat/completions"
+  model: "gemini-3-flash-preview"
+
+# Image API (for render stage)
+image_api:
+  provider: "sydney-ai"  # identifier for this provider
+  api_key: "sk-your-image-api-key"
+  base_url: "https://api.sydney-ai.com/v1/images/generations"
+  model: "gemini-2.5-flash-image-vip"
+  # format: "images/generations"  # or "chat/completions"
+
+# ASR API (for audio transcription - optional)
+# Only needed if you want to transcribe audio files to text
+asr_api:
+  provider: "volcengine"  # ByteDance Volcengine Speech Recognition
+
+  # App ID (required)
+  app_id: "your-app-id"
+
+  # === Choose ONE authentication method ===
+
+  # Option 1: New API Key (recommended if available)
+  # api_key: "your-volcengine-api-key"
+
+  # Option 2: Old App Key + Access Token (legacy)
+  app_key: "your-app-key"
+  access_token: "your-access-token"
+
+  # Secret Key (optional, not typically needed for ASR)
+  # secret_key: "your-secret-key"
+
+  # Resource ID (optional, default: auto)
+  # Options: auto, volc.seedasr.auc, volc.bigasr.auc
+  resource_id: "auto"
+
+  # Language (optional, empty means auto-detect)
+  # Examples: zh-CN, en-US, ja-JP
+  language: ""
+
+# Get your Volcengine credentials at: https://console.volcengine.com/speech/app
+
+# Alternative providers (you can switch by changing the keys above)
+providers:
+  openrouter:
+    text_api:
+      base_url: "https://openrouter.ai/api/v1/chat/completions"
+      model: "google/gemini-3-flash-preview"
+    image_api:
+      base_url: "https://openrouter.ai/api/v1/chat/completions"
+      model: "google/gemini-3.1-flash-image-preview"
+  
+  sydney-ai:
+    image_api:
+      base_url: "https://api.sydney-ai.com/v1/images/generations"
+      model: "gemini-2.5-flash-image-vip"
+  
+  ourzhishi:
+    text_api:
+      base_url: "https://api.ourzhishi.top/v1/chat/completions"
+      model: "gemini-3-pro-image-preview"

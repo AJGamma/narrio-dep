@@ -1,0 +1,4 @@
+{"ts": "2026-04-08T10:51:05.878250+00:00", "event": "run.created", "combo_id": "podcast-Dopamine_Serotonin_Decisions-Sspai-751d4379", "run_id": "run-20260408-185105"}
+{"ts": "2026-04-08T10:51:05.879795+00:00", "event": "transcribe.started", "audio": "/Users/mac/code/narrio/content/audio/Dopamine_Serotonin_Decisions.mp3"}
+{"ts": "2026-04-08T10:51:15.881019+00:00", "event": "transcribe.failed", "error": "音频上传失败：HTTP 503 uploads disabled because it’s been almost nothing but AI botnet spam for the past few months. will be back with a few changes at some point. no ETA."}
+{"ts": "2026-04-08T10:51:15.881798+00:00", "event": "run.failed", "error": "音频上传失败：HTTP 503 uploads disabled because it’s been almost nothing but AI botnet spam for the past few months. will be back with a few changes at some point. no ETA."}

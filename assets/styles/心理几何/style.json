@@ -1,0 +1,54 @@
+
+{
+  "design_style": "Minimalist Psycho-Geometric / Modern Swiss-Asian Fusion",
+  "color_palette": {
+    "background": "#C5E3D8",
+    "primary_accent": "#F5A623",
+    "secondary_accent": "#E87E6D",
+    "text_primary": "#1A1A1A",
+    "text_secondary": "#5B8C85",
+    "gradient_spectrum": [
+      "#E87E6D",
+      "#F8C090",
+      "#D0E6DE"
+    ]
+  },
+  "typography": {
+    "header_font_style": "Bold Semi-Serif (Ming/Song Style) / Heavy Sans-Serif Hybrid",
+    "body_font_style": "Geometric Sans-Serif (Standard/Medium weight)",
+    "layout_logic": "Deconstructed Grid / Multidirectional Orientation",
+    "text_effects": [
+      "Extra-large scale vertical typography (East Asian style)",
+      "Mixed horizontal and vertical text blocks",
+      "Justified small-print metadata clusters",
+      "Dynamic kerning: Standard for headers, compressed for vertical blocks"
+    ]
+  },
+  "visual_elements": {
+    "geometry": [
+      "Concentric nested silhouettes",
+      "Radiating isometric contour lines",
+      "Perfect circle (sun/moon motif)",
+      "Staircase/Ziggurat negative space structure",
+      "Archway framing"
+    ],
+    "textures": [
+      "Matte paper finish",
+      "Vector-sharp line art",
+      "Soft rhythmic repetition",
+      "Flat color blocking"
+    ],
+    "motifs": [
+      "Echoing profile outlines",
+      "Gateway/Portal symbolism",
+      "Infinite staircase",
+      "Rippling topographic layers"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Balanced tension between dense graphic center and airy margins",
+    "depth": "Pseudo-3D through converging lines and forced perspective (Archway)",
+    "hierarchy": "Dominant vertical type-anchor on the right, centered symbolic focus",
+    "alignment": "Right-aligned vertical headers, top-left justified English accents, bottom-left sub-metadata"
+  }
+}

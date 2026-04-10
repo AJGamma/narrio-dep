@@ -1,0 +1,77 @@
+{
+  "design_style": "Modern Minimalist / Bento-Grid Card-Based Interface",
+
+  "color_palette": {
+    "background_main": "#000000",
+    "card_background_dark": "#1C1C1E",
+    "card_background_light": "#2C2C2E",
+
+    "accent_red": "#D12D2D",
+
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A1A1A6",
+    "text_tertiary": "#636366"
+  },
+
+  "color_usage_rules": {
+    "accent_priority": "Red is the dominant visual accent across the interface",
+
+    "red_usage": [
+      "Primary call-to-action buttons",
+      "Active states (tabs, toggles, selected cards)",
+      "Key data highlights (prices, important numbers)",
+      "Icons and feature highlights",
+      "Badges (e.g., 'Best Value', 'Popular')",
+      "Interactive hover/focus states"
+    ],
+
+    "contrast_balance": [
+      "Use red frequently but keep backgrounds neutral (black/gray)",
+      "Avoid over-saturation by spacing red elements across layout",
+      "Pair red with white text for strong readability"
+    ]
+  },
+
+  "typography": {
+    "header_font_style": "Semibold / Dynamic Sans-Serif (Variable Weight)",
+    "body_font_style": "Regular / System Sans-Serif",
+    "layout_logic": "Bento-Box Grid / Modular Tile System",
+    "text_effects": [
+      "High-contrast hierarchy between numeric data and labels",
+      "Highlight key numbers or keywords using red accent",
+      "Tight line-height for multi-line card descriptions",
+      "Letter-spacing: -0.02em for headers, 0 for body",
+      "Vertical stacking for feature lists with icon-text alignment"
+    ]
+  },
+
+  "visual_elements": {
+    "geometry": [
+      "Large radius rounded corners (24px - 32px) for main containers",
+      "Medium radius rounded corners (12px - 16px) for inner elements/buttons",
+      "Circular avatars and iconography"
+    ],
+
+    "textures": [
+      "Soft frosted glass (Mica/Acrylic) overlays",
+      "Subtle inner border/stroke (1px #3A3A3C) for depth",
+      "Low-intensity drop shadows for elevated states",
+      "Smooth Gaussian blur for background transitions"
+    ],
+
+    "motifs": [
+      "Floating red badges/tags in card corners",
+      "Red-accented switches/toggles",
+      "Iconography-led feature grids with red highlights",
+      "Contextual image masking within rounded containers",
+      "Subtle red glow or gradient accents for emphasis"
+    ]
+  },
+
+  "compositional_rules": {
+    "spacing": "Variable density: High-density info-tiles mixed with spacious hero cards",
+    "depth": "Flat design with 2.5D layering via color contrast and subtle borders",
+    "hierarchy": "Size-based priority with red accent guiding user attention",
+    "alignment": "Strictly centered for pricing and call-to-action; left-aligned for content feeds"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "design_style": "Neo-Luxury Digital / Stellar Serif Fusion",
+  "color_palette": {
+    "background": "#090613",
+    "background_secondary": "#140A2F",
+    "primary_accent": "#4800FF",
+    "secondary_accent": "#6A3BFF",
+    "tertiary_accent": "#9A7BFF",
+    "highlight_glow": "#B8A6FF",
+    "light_reflection": "#D9D2FF",
+    "text_primary": "#EEE9FF",
+    "text_secondary": "#B9B2E6",
+    "gradient": "Radial-gradient(ellipse at 65% 35%, #4800FF 0%, #2A0D7A 35%, #140A2F 65%, #090613 100%)"
+  },
+  "typography": {
+    "header_font_style": "Custom High-Contrast Serif with Stellar Glyph Integration",
+    "body_font_style": "Humanist Sans-Serif / Neo-Grotesque",
+    "layout_logic": "Centered Hero Composition with Vertical Rhythm",
+    "custom_lettering": {
+      "base_structure": {
+        "classification": "Didone-inspired high-contrast serif",
+        "contrast_ratio": "Extreme (1:6–1:10 stroke ratio)",
+        "axis": "Vertical stress",
+        "proportion": "Tall x-height with elongated ascenders"
+      },
+      "four_point_star_system": {
+        "geometry": {
+          "construction": "Rotated square (45°) with concave side insets forming four sharp tips",
+          "inner_cut": "Diamond-shaped negative space centered",
+          "corner_treatment": "Slightly rounded inner joints to avoid pixel sharpness",
+          "aspect_ratio": "1:1 strict geometry"
+        },
+        "integration_rules": [
+          "Primary usage replaces diacritic/dot elements (e.g., above 'i')",
+          "Acts as semantic anchor near initial capital (positioned optically above x-height)",
+          "Aligned to vertical stem centerline of anchor glyph",
+          "Scale proportion: 0.6–0.75 of cap-height",
+          "Maintains equal optical weight as serif terminals"
+        ],
+        "visual_behavior": [
+          "Filled with same gradient logic as main glyphs",
+          "Receives slightly higher glow intensity (+10–15%)",
+          "Acts as focal highlight node in composition"
+        ]
+      },
+      "stylization": {
+        "stroke_treatment": [
+          "Primary vertical stems remain solid with subtle inner gradient (#D9D2FF → #8A7CFF)",
+          "Hairline strokes retain crisp edges with minimal glow bleed",
+          "Selective stroke carving: micro incisions at joints to echo star geometry"
+        ],
+        "serif_design": [
+          "Sharp wedge serifs with inward curvature mirroring star concavity",
+          "Terminal ends slightly flared to match star point expansion",
+          "Serif thickness optically balanced against star stroke thickness"
+        ],
+        "counter_design": [
+          "Counters include subtle asymmetrical cuts inspired by star inner diamond",
+          "Rounded forms slightly squared-off at tension points"
+        ],
+        "special_glyph_modifications": [
+          "Rounded letters (a, o) include internal notch or highlight slit referencing star geometry",
+          "Vertical stems may include faint spectral reflection (purple-blue band)",
+          "No purely geometric purity—intentional optical distortion for elegance"
+        ]
+      },
+      "spacing": {
+        "tracking": "-12 to -18",
+        "kerning": "Tight optical kerning with emphasis on rhythm continuity",
+        "baseline_alignment": "Strict baseline, star element optically offset above",
+        "line_height": "0.9–1.0em headline"
+      }
+    },
+    "text_effects": [
+      "Soft inner glow (#D9D2FF at 20–30% opacity)",
+      "Outer bloom (#4800FF, Gaussian blur, large radius)",
+      "Localized glow intensification at star element",
+      "Vertical gradient fill with subtle spectral variation",
+      "No drop shadows, only volumetric light diffusion"
+    ]
+  },
+  "visual_elements": {
+    "geometry": [
+      "Organic amorphous light fields",
+      "Elliptical glow clusters",
+      "Embedded stellar (four-point) micro-geometry"
+    ],
+    "lighting": {
+      "type": "Volumetric glow with focal amplification",
+      "behavior": [
+        "Star element acts as micro light emitter",
+        "Background glow remains defocused and secondary",
+        "Smooth luminance falloff with no hard edges"
+      ]
+    },
+    "textures": [
+      "Ultra-clean gradient surfaces",
+      "No grain / no noise",
+      "Soft atmospheric diffusion"
+    ],
+    "motifs": [
+      "Stellar minimalism",
+      "Abstract cosmic luminosity",
+      "Luxury-tech hybrid visual language"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Expansive negative space with strong central lockup",
+    "depth": "Foreground typography sharply rendered over blurred luminous layers",
+    "hierarchy": "Star-integrated logotype as primary focal system",
+    "alignment": "Strict center alignment with optical adjustments",
+    "balance": "Asymmetric light fields balanced by star anchor",
+    "scale": "Headline ~45% width; star occupies ~6–8% of width"
+  },
+  "motion_implication": {
+    "suggested_animation": [
+      "Star element subtle pulse (opacity + scale 1.0 → 1.05)",
+      "Gradient drift behind static typography",
+      "Micro shimmer on vertical stems (very low frequency)"
+    ],
+    "easing": "Ease-in-out, ultra-smooth interpolation"
+  }
+}

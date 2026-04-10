@@ -1,0 +1,47 @@
+{
+  "design_style": "Modern Conversational UI / Flat Material Pop / Vibrant Minimalist",
+  "color_palette": {
+    "background": "#F4F5F7",
+    "primary_blue": "#3B5DE7",
+    "primary_green": "#56F16A",
+    "primary_light_blue": "#4491F8",
+    "accent_orange": "#F47F1F",
+    "accent_yellow": "#F4C13A",
+    "text_primary_inverse": "#FFFFFF",
+    "text_secondary": "#1A1A1A",
+    "icon_neutral": "#888888"
+  },
+  "typography": {
+    "header_font_style": "Bold Modern Sans-Serif / Heavy Hei-Ti (Chinese Display)",
+    "body_font_style": "Regular Clean Sans-Serif / System UI Font",
+    "layout_logic": "Asymmetrical staggered cluster (top) paired with symmetrical center-axis (bottom)",
+    "text_effects": [
+      "Flush-left optical alignment within irregular rounded containers",
+      "High-contrast inverse (white) text on vibrant solid background fills",
+      "Generous line height for legibility inside contained blocks"
+    ]
+  },
+  "visual_elements": {
+    "geometry": [
+      "Over-sized conversational chat bubble silhouettes",
+      "Maximum border radius (pill/stadium curvature)",
+      "Sharp directional pointer tails contrasting with ultra-soft curves"
+    ],
+    "textures": [
+      "Flat vector matte finish",
+      "Soft, diffuse Gaussian drop shadows",
+      "Solid un-graded color blocking without gradients"
+    ],
+    "motifs": [
+      "Messaging / Dialogue interface abstraction",
+      "Overlapping digital cards",
+      "Downward triple chevron scroll indicator (UI affordance)"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Dense, overlapping visual weight in the top two-thirds; expansive neutral negative space isolating the bottom elements",
+    "depth": "2.5D layered Z-axis utilizing distinct drop shadows to separate physical layers of flat color shapes",
+    "hierarchy": "Visual flow cascades top-to-bottom through size and color alternation, naturally guiding the eye to the final dark-text call-to-action",
+    "alignment": "Organic, staggered horizontal offsets for hero graphics, resolving into a strict centered vertical axis for the footer"
+  }
+}

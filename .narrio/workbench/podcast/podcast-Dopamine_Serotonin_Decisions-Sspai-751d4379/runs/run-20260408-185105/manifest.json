@@ -1,0 +1,56 @@
+{
+  "combo_id": "podcast-Dopamine_Serotonin_Decisions-Sspai-751d4379",
+  "run_id": "run-20260408-185105",
+  "workflow_type": "podcast",
+  "status": "failed",
+  "created_at": "2026-04-08T10:51:05.876970+00:00",
+  "selection": {
+    "markdown": "Dopamine_Serotonin_Decisions.md",
+    "style": "Sspai",
+    "prompt_label": "interactive"
+  },
+  "source": {
+    "path": "/Users/mac/code/narrio/content/audio/Dopamine_Serotonin_Decisions.mp3",
+    "content_hash": "995b9bc5c839efb6ebd0407e85d9c55c0f80a96f"
+  },
+  "resume": {
+    "start_stage": "from-audio",
+    "reused_artifacts": []
+  },
+  "assets": {
+    "chunk_prompt": "/Users/mac/code/narrio/assets/prompts/PodcastChunkify.md",
+    "stylify_prompt": "/Users/mac/code/narrio/assets/prompts/stylify.md",
+    "redsoul_prompt": "/Users/mac/code/narrio/assets/prompts/RedSoul.md",
+    "image_prompt": "/Users/mac/code/narrio/assets/prompts/ImageGen.md",
+    "style": "Sspai"
+  },
+  "models": {
+    "chunk_model": "google/gemini-3.1-flash-image-preview",
+    "editorial_model": "google/gemini-3.1-flash-image-preview",
+    "image_model": "google/gemini-3.1-flash-image-preview"
+  },
+  "paths": {
+    "run_dir": "/Users/mac/code/narrio/.narrio/workbench/podcast/podcast-Dopamine_Serotonin_Decisions-Sspai-751d4379/runs/run-20260408-185105"
+  },
+  "steps": {
+    "transcribe": {
+      "status": "failed",
+      "updated_at": "2026-04-08T10:51:15.880066+00:00",
+      "detail": "音频上传失败：HTTP 503 uploads disabled because it’s been almost nothing but AI botnet spam for the past few months. will be back with a few changes at some point. no ETA."
+    },
+    "highlight": {
+      "status": "pending"
+    },
+    "chunkify": {
+      "status": "pending"
+    },
+    "stylify": {
+      "status": "pending"
+    },
+    "render": {
+      "status": "pending"
+    }
+  },
+  "error": "音频上传失败：HTTP 503 uploads disabled because it’s been almost nothing but AI botnet spam for the past few months. will be back with a few changes at some point. no ETA.",
+  "failed_at": "2026-04-08T10:51:15.881521+00:00"
+}

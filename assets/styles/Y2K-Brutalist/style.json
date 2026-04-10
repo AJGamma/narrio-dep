@@ -1,0 +1,45 @@
+{
+  "design_style": "Y2K Acid Graphics / Vibrant Neo-Brutalist / Flat 3D Pop Art",
+  "color_palette": {
+    "background": "#6B2CC5",
+    "primary_accent": "#98ED29",
+    "secondary_accent": "#4D1B93",
+    "text_primary": "#98ED29",
+    "text_secondary": "#6B2CC5",
+    "shadow_tone": "#522199"
+  },
+  "typography": {
+    "header_font_style": "Ultra-Bold Extended Sans-Serif / Heavy Grotesque Display",
+    "body_font_style": "Medium Clean Sans-Serif / Standard Hei-Ti (Chinese)",
+    "layout_logic": "Symmetrical outer framing with asymmetrical staggered interior elements",
+    "text_effects": [
+      "Extreme scale contrast between headline and body text",
+      "All-caps styling for English copy",
+      "Tight kerning (letter-spacing) on massive header",
+      "Bilingual hierarchy (English as primary graphical element, Chinese as functional subtitle)"
+    ]
+  },
+  "visual_elements": {
+    "geometry": [
+      "Tabbed file folder silhouettes",
+      "Overlapping rectangular planes",
+      "Angled tab cuts with sharp corners",
+      "Staggered diagonal cascading"
+    ],
+    "textures": [
+      "Photorealistic crumpled paper / plastic wrap overlay",
+      "Subtle matte surface finish"
+    ],
+    "motifs": [
+      "Physical office filing system abstraction (Folders)",
+      "Minimalist linear geometric icon bounded by a thin rectangle",
+      "Corporate trademark symbols (®)"
+    ]
+  },
+  "compositional_rules": {
+    "spacing": "Top-heavy typographic anchor with a centralized, floating mid-ground graphic",
+    "depth": "2.5D spatial layering achieved through offset stacking and contrasting border colors to simulate thickness",
+    "hierarchy": "Visual dominance driven by color contrast (Header) -> Structural layering (Folders) -> Anchored Base (Footer)",
+    "alignment": "Full-width justified optical alignment for the header, center-aligned overall lockup, flush-left typography within individual folder tabs"
+  }
+}

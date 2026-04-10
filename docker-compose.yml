@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  narrio-backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: narrio-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+    volumes:
+      # Mount for development (optional, comment out for production)
+      # - ./src:/app/src
+      # - ./assets:/app/assets
+      # - ./content:/app/content
+      - ./assets:/app/assets:ro
+      - ./content:/app/content:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

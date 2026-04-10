@@ -1,0 +1,46 @@
+{
+  "combo_id": "article-请停下-计数器-思维-OpenAI-a673ae9a",
+  "run_id": "run-20260408-024706",
+  "workflow_type": "article",
+  "status": "dry_run",
+  "created_at": "2026-04-07T18:47:06.578883+00:00",
+  "selection": {
+    "markdown": "请停下「计数器」思维.md",
+    "style": "OpenAI",
+    "prompt_label": "ArticleChunkify-md-stylify-md-RedSoul-md-ImageGen-md"
+  },
+  "source": {
+    "path": "/Users/mac/code/narrio/content/sources/article/请停下「计数器」思维.md",
+    "content_hash": "b1419d9b66ddf3c0786ed097a04e361131888676"
+  },
+  "resume": {
+    "start_stage": "from-source",
+    "reused_artifacts": []
+  },
+  "assets": {
+    "chunk_prompt": "/Users/mac/code/narrio/assets/prompts/ArticleChunkify.md",
+    "stylify_prompt": "/Users/mac/code/narrio/assets/prompts/stylify.md",
+    "redsoul_prompt": "/Users/mac/code/narrio/assets/prompts/RedSoul.md",
+    "image_prompt": "/Users/mac/code/narrio/assets/prompts/ImageGen.md",
+    "style": "OpenAI"
+  },
+  "models": {
+    "chunk_model": "google/gemini-3-flash-preview",
+    "editorial_model": "google/gemini-3-flash-preview",
+    "image_model": "google/gemini-3.1-flash-image-preview"
+  },
+  "paths": {
+    "run_dir": "/Users/mac/code/narrio/.narrio/workbench/article/article-请停下-计数器-思维-OpenAI-a673ae9a/runs/run-20260408-024706"
+  },
+  "steps": {
+    "chunkify": {
+      "status": "pending"
+    },
+    "stylify": {
+      "status": "pending"
+    },
+    "render": {
+      "status": "pending"
+    }
+  }
+}

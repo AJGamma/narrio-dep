@@ -1,0 +1,64 @@
+# Narrio API Configuration
+
+# # Text/Chat API (for chunkify and stylify stages)
+# text_api:
+#   provider: "hnd1-aihub"
+#   api_key: "sk-e0UauopbN6t5yPWYJRNbOQ"
+#   base_url: "https://hnd1.aihub.zeabur.ai/v1/chat/completions"
+#   model: "gemini-3-flash-preview"
+#   format: "chat/completions"
+
+# Text/Chat API (for chunkify and stylify stages)
+text_api:
+  provider: "openrouter"
+  api_key: "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"
+  base_url: "https://openrouter.ai/api/v1/chat/completions"
+  model: "google/gemini-3-flash-preview"
+  format: "chat/completions"
+
+# # Image API (for render stage)  
+# image_api:
+#   provider: "ourzhishi"
+#   api_key: "sk-f9fsNkLVOkC2nnYvO1DADO1w61dcWoqzTa1V9rfJS2WKrqXa"
+#   base_url: "https://api.ourzhishi.top/v1/images/generations"
+#   model: "gemini-3-pro-image-preview"
+#   format: "images/generations"
+
+# Image API (for render stage)
+image_api:
+  provider: "openrouter"
+  api_key: "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"
+  base_url: "https://openrouter.ai/api/v1/chat/completions"
+  model: "google/gemini-3.1-flash-image-preview"
+  format: "chat/completions"
+
+# ASR API (Volcengine - for audio transcription)
+asr_api:
+  provider: "volcengine"
+  app_id: "9759076940"
+  app_key: "Y-S47__rekdacbQ_V1X8ucV8b2CTDhP7"
+  access_token: "NLeZrJOrqJ0BruA47WST-OD0uO8zw0mT"
+  secret_key: "Y-S47__rekdacbQ_V1X8ucV8b2CTDhP7"
+  resource_id: "auto"
+  language: ""  # auto-detect
+
+
+# Alternative providers (you can switch by changing the keys above)
+providers:
+  openrouter:
+    text_api:
+      base_url: "https://openrouter.ai/api/v1/chat/completions"
+      model: "google/gemini-3-flash-preview"
+    image_api:
+      base_url: "https://openrouter.ai/api/v1/chat/completions"
+      model: "google/gemini-3.1-flash-image-preview"
+
+  sydney-ai:
+    image_api:
+      base_url: "https://api.sydney-ai.com/v1/images/generations"
+      model: "gemini-2.5-flash-image-vip"
+
+  ourzhishi:
+    text_api:
+      base_url: "https://api.ourzhishi.top/v1/chat/completions"
+      model: "gemini-3-pro-image-preview"
